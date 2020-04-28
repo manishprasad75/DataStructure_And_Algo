@@ -3,6 +3,7 @@ using namespace std;
 
 set<vector<int> > s;
 
+
 void solve(vector<int> &v, int i){
 	if(i == v.size()-1){
 		s.insert(v);
